@@ -4,9 +4,14 @@ section h1 {
 
 p {
     font-family: var(--font-tenor);
+    background-color: var(--jaune-cassé);
+    padding: 10px;
+    border-radius: 15px;
 }
 
-.bouton__cliquable {
+.bouton__cliquable > a {
     font-family: var(--font-voltaire);
-    background-color: var(--jaune-cassé);
+    background-color: var(--green);
+    padding: 10px;
+    border-radius: 15px;
 }
