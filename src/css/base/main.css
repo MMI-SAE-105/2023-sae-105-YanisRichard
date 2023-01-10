@@ -1,9 +1,25 @@
-
-section h1 {
-    font-family: var(--font-voltaire);
+main {
+    position: relative;
+    top: 62px;
+    padding:2px;
+    
 }
 
-p {
+ h1 {
+    font-family: var(--font-voltaire);
+    background-color: var(--jaune-cassé);
+    padding: 10px;
+    border-radius: 15px;
+    position: center;
+ }
+
+html{
+    background-color: var(--beige);
+    
+}
+
+
+main p {
     font-family: var(--font-tenor);
     background-color: var(--jaune-cassé);
     padding: 10px;
