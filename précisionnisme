@@ -42,7 +42,17 @@
     <main>
         <h1>Précisionnisme</h1>
 
-        
+        <img src="/public/img/precisionnisme/Studio-interior-1938-ault.webp">
+       
+        <p>       Le précisionnisme est un mouvement artistique apparu au début des années 1920 aux États-Unis.
+            Influencé par le cubisme (le cubisme orphique) et le futurisme, ce mouvement a pour principaux représentants Charles Demuth, Elsie Driggs et Charles Sheeler. Une partie de l'œuvre de Georgia O'Keeffe, dont le mari Alfred Stieglitz fut aussi impliqué, peut aussi être associée à ce courant.
+            Edward Hopper n'est pas à proprement parler un précisionniste, mais son style en présente quelques caractéristiques. Certaines œuvres (notamment J'ai vu le chiffre 5 en or de Demuth) influenceront aussi bien plus tard le Pop Art.
+             Le style précisionniste se caractérise par une représentation cubiste mais figurative (cubo-réalisme). Les thèmes sont souvent des paysages industriels et urbains (cheminées d'usines, bâtiments, châteaux d'eau) représentés de façon cubiste, parfois proche de l'abstraction mais parfois réalistes voir photoréalistes. D'autre part, ces représentations figuratives idéalisées sont généralement vides de toute présence humaine.
+             Le précisionnisme n'eut pas un grand retentissement en dehors des États-Unis. À vrai dire, les artistes cités étaient un groupe très restreint, particulièrement actif dans les années 1920 et 1930, et organisèrent quelques expositions communes. Par ailleurs aucun manifeste ne fut créé pour ce mouvement.</p>
+       
+         <div class="bouton__cliquable">
+            <a href="/billetterie.html">Billetterie</a>
+        </div>
 
     </main>
     
