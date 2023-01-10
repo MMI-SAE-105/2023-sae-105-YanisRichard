@@ -7,6 +7,10 @@
     --beige: rgba(254,250,214,1);
     --green: rgba(183,235,117,1);
     --black: rgba(0,0,0,1);
+
+    /*Polices de caractère*/
+    --font-tenor: 'Tenor', monospace;
+    --font-voltaire: 'Voltaire' , monospace;
  
     /*Taille de polices*/
     --title-xxl: 2.25rem;
