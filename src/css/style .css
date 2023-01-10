@@ -1,19 +1,19 @@
+/*Import de Vendors*/
+@import "/vendors/normalize.css";
+
+/*Import des Utils*/
+@import "utils/variables.css";
+
 /*Import du Layout*/
-@import "header.css";
-@import "footer.css";
+@import "layout/header.css";
+@import "layout/footer.css";
 
 /*Import des Bases*/
-@import "main.css";
-@import "body.css";
+@import "base/main.css";
+@import "base/media.css";
 
 /*Import des Composants*/
-@import "menu.css";
-
-/*Import des variables*/
-@import "variables.css";
-
-/*Import de Vendors*/
-@import "vendors/normalize.css";
+@import "components/menu.css";
 
 /*Import des polices Tenor et Voltaire*/
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Voltaire&display=swap');
