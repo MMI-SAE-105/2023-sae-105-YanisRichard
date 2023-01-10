@@ -1,10 +1,9 @@
 
 .nav-toggle {
-  
+    background-color: var(--red);
     width: 30px;
     height: 30px;
     position:absolute;
-    top: 75px;
     right: 35px;
     display: flex;
     align-items: center;
@@ -46,7 +45,7 @@
 
 
 .menu{
-    background-color: var(--color-green);
+    background-color: var(--red);
     position: fixed;
     top: 0;
     left: 0;

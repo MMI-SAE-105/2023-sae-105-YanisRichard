@@ -1,6 +1,6 @@
 .header {
     position: absolute;
-    background-color: red;
+    background-color: var(--bleu);
     top: 0;
     left: 0;
     width: 100%;
@@ -10,4 +10,14 @@
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.header li {
+    font-family: var(--font-voltaire);
+    font-size: smaller;
+}
+
+.header__logo {
+    height: 35px;
+    padding: 25px;
 }
