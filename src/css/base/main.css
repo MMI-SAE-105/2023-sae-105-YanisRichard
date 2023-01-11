@@ -82,3 +82,21 @@ form {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+.fleche {
+    position: absolute;
+    height: 80%;
+    bottom: 10rem;
+}
+
+button {
+    margin-top: auto;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: var(--green);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}

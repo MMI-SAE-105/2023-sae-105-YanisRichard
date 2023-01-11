@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billetterie</title>
+    <title>Frise</title>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
@@ -43,7 +43,20 @@
     <main>
         <h1>Frise</h1>
 
-        
+        <div>
+            <section x-data="{isOpen:false}">
+              <img class="fleche" x-show="isOpen" x-collapse src="/public/img/Arrow 1.webp">
+              <button @click="isOpen = ! isOpen">Frise</button>
+              <p x-show="isOpen" x-collapse>Morton Schamberg: 1881-1918</p>
+              <img x-show="isOpen" x-collapse src="/public/img/Schamberg/morton-shamberg_2.webp">
+              <p x-show="isOpen" x-collapse>Charles Demuth: 1883-1935</p>
+              <img x-show="isOpen" x-collapse src="/public/img/Demuth/Charles_Demuth_2.webp">
+              <p x-show="isOpen" x-collapse>Georges Ault: 1891-1943</p>
+              <img x-show="isOpen" x-collapse src="/public/img/Ault/GeorgesAult_2.webp">
+              <p x-show="isOpen" x-collapse>Ralston Crawford: 1906-1979</p>
+              <img x-show="isOpen" x-collapse src="/public/img/Crawford/Raltson_Crawford_2.webp">
+            </section>
+        </div>
 
     </main>
     
