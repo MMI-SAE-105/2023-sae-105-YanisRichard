@@ -1,6 +1,6 @@
 main {
     position: relative;
-    top: 62px;
+    
 }
 
  h1 {
@@ -23,12 +23,12 @@ main {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
 }
  
 
 html{
     background-color: var(--beige);  
+    
 }
 
 
@@ -43,7 +43,7 @@ main p {
     display: block;
 }
 
-.bouton__cliquable  a {
+.bouton__cliquable a  {
     font-family: var(--font-voltaire);
     background-color: var(--green);
     width: 100px;
