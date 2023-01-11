@@ -6,3 +6,11 @@
     font-family: var(--font-voltaire);
     
 }
+
+.footer h3 , p {
+    padding: 10px;
+}
+
+.footer img {
+    padding: 15px;
+}
