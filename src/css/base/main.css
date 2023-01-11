@@ -10,20 +10,26 @@ main {
     background-color: var(--jaune-cassé);
     padding: 10px;
     border-radius: 15px;
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
  }
 
 html{
-    background-color: var(--beige);
-    
+    background-color: var(--beige);  
 }
 
 
 main p {
     font-family: var(--font-tenor);
     background-color: var(--jaune-cassé);
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 .bouton__cliquable  a {
