@@ -1,8 +1,6 @@
 main {
     position: relative;
     top: 62px;
-    padding:2px;
-    
 }
 
  h1 {
@@ -26,9 +24,7 @@ main p {
     padding: 20px;
     border-radius: 15px;
     width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    display: inline-block;
 
 }
 
@@ -38,9 +34,8 @@ main p {
     width: 96px;
     padding: 10px;
     border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block
+    display: inline-block;
+    
 }
 
 main img {
