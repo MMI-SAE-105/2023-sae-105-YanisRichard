@@ -44,7 +44,7 @@ main p {
     display: block;
 }
 
-ul {
+main ul {
     font-family: var(--font-tenor);
     background-color: var(--jaune-cassé);
     padding: 20px;
