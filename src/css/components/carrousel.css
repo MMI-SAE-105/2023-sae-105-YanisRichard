@@ -11,13 +11,13 @@
     scroll-snap-type: x mandatory;
 }
 
-.carrousel_ecran {
+.carrousel_screen {
     width: 100%;
     flex: none;
     scroll-snap-align: start;
 }
 
-.carrousel_ecran figure {
+.carrousel_screen figure {
     margin: 0;
 }
 
@@ -27,34 +27,33 @@
   
 .carrousel_btn {
     position: absolute;
-    top: 50%; /* centre verticalement */
-    transform: translateY(-50%); /* methode du point mort */
+    top: 50%; 
+    transform: translateY(-50%); 
     width: 2rem;
     height: 2rem;
-    background: rgba(0,0,0,0.5);
-    border-radius: 50%;
+    background: var(--green);
+    border-radius: 15%;
     border: none;
     display: grid;
     place-content: center;
-    color: #fff;
+    color: var(--beige);
 }
   
-.carrousel_btn-avant {
+.carrousel_btn-gauche {
     left: 0;
 }
   
-.carrousel_btn-apres {
+.carrousel_btn-droite {
     right: 0;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--noir);
     text-transform: uppercase;
 }
 
-.caroussel_liste-liens {
-    border: solid;
+.caroussel_liste{
     display: flex;
     justify-content: center;
     margin: 0;
@@ -64,9 +63,9 @@ a {
     gap: 1rem;
 }
 
-.actif {
+.screen_actif {
     padding: 10px;
-    color: white;
-    background-color: black;
+    color: var(--beige);
+    background-color: var(--green);
     border-radius: 5px;
 }
