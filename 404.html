@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<header class="header">
+<title>404 - Page Non trouvée</title>
+<link rel="stylesheet" href="/src/css/style.css">
+
+<body>
+<header>
+<a class="icones" href="/index.html">
+    <img class="header__logo" src="/public/img/icones/Icon_Home.webp">
+</a>
+</header>
+</body>
+               
+  
+  
+   
+    <h1>Page Non Trouvée</h1>
+   
+
+
+
+<form action="https://yanis-richard.fr/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <label for="q">Texte à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
