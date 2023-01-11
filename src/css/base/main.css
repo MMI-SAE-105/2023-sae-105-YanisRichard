@@ -30,7 +30,6 @@ main {
 
 html{
     background-color: var(--beige);  
-    
 }
 
 
@@ -40,6 +39,16 @@ main p {
     padding: 20px;
     border-radius: 15px;
     width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    font-family: var(--font-tenor);
+    background-color: var(--jaune-cassé);
+    padding: 20px;
+    border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
