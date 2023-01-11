@@ -1,10 +1,12 @@
-.footer {
+footer {
     position: absolute;
     background-color: var(--bleu); 
+    bottom: auto;
     left: 0;
     width: 100%;
     font-family: var(--font-voltaire);
-    
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .footer h3 , p {
