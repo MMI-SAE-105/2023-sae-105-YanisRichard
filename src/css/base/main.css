@@ -10,7 +10,8 @@ main {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
+    display: block;
+    text-align: center;
  }
 
 html{
@@ -24,17 +25,22 @@ main p {
     padding: 20px;
     border-radius: 15px;
     width: 350px;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 }
 
 .bouton__cliquable  a {
     font-family: var(--font-voltaire);
     background-color: var(--green);
-    width: 96px;
+    width: 100px;
     padding: 10px;
     border-radius: 15px;
-    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     
 }
 
